@@ -73,8 +73,13 @@ function App() {
 
       <div className="w-[20%]
               mt-[0px]
+              flex
+              flex-col
+              items-center
+              justify-center
               absolute
-              top-[12%]
+              top-0
+              bottom-0
               left-[39%]
               max-[1080px]:left-[0%]
               max-[1080px]:w-[50%]
@@ -101,6 +106,7 @@ function App() {
           flex
           flex-col
           items-center
+         
           ">
           <p className="text-center text-lg max-[1340px]:text-base">Oferta por tempo limitado</p>
           <p className="flex text-lg">de <p className="text-gray-500 line-through decoration-red-700 ml-1"> R$37</p> por R$21,90</p>
