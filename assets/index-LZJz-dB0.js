@@ -84,8 +84,13 @@ Error generating stack: `+o.message+`
           hover:text-white
           bg-[#FFD700]`,children:"COMPRE AGORA"})})]}),S.jsxs("div",{className:`w-[20%]
               mt-[0px]
+              flex
+              flex-col
+              items-center
+              justify-center
               absolute
-              top-[12%]
+              top-0
+              bottom-0
               left-[39%]
               max-[1080px]:left-[0%]
               max-[1080px]:w-[50%]
@@ -108,6 +113,7 @@ Error generating stack: `+o.message+`
           flex
           flex-col
           items-center
+         
           `,children:[S.jsx("p",{className:"text-center text-lg max-[1340px]:text-base",children:"Oferta por tempo limitado"}),S.jsxs("p",{className:"flex text-lg",children:["de ",S.jsx("p",{className:"text-gray-500 line-through decoration-red-700 ml-1",children:" R$37"})," por R$21,90"]}),S.jsxs("div",{className:`flex
             `,children:[S.jsx("img",{className:"max-w-[30px] mr-3",src:Hd,alt:""}),S.jsx("img",{className:"max-w-[30px] mr-3",src:Yd,alt:""}),S.jsx("img",{className:"max-w-[30px]",src:jd,alt:""})]}),S.jsx("a",{target:"_blank",href:"https://pay.kiwify.com.br/VRFb9sv",rel:"noreferrer",children:S.jsx("button",{className:`p-5
           rounded-3xl
